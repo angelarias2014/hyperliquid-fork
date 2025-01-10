@@ -2197,13 +2197,6 @@
   dependencies:
     "@types/node" "*"
 
-"@types/bun@^1.1.14":
-  version "1.1.14"
-  resolved "https://registry.yarnpkg.com/@types/bun/-/bun-1.1.14.tgz#587dead368410b281b1bcbfb61d3ce1a07a63234"
-  integrity sha512-opVYiFGtO2af0dnWBdZWlioLBoxSdDO5qokaazLhq8XQtGZbY4pY3/JxY8Zdf/hEwGubbp7ErZXoN1+h2yesxA==
-  dependencies:
-    bun-types "1.1.37"
-
 "@types/caseless@*":
   version "0.12.5"
   resolved "https://registry.yarnpkg.com/@types/caseless/-/caseless-0.12.5.tgz#db9468cb1b1b5a925b8f34822f1669df0c5472f5"
@@ -2263,13 +2256,6 @@
   version "12.20.55"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.20.55.tgz#c329cbd434c42164f846b909bd6f85b5537f6240"
   integrity sha512-J8xLz7q2OFulZ2cyGTLE1TbbZcjpno7FaN6zdJNrgAdrJ+DZzh/uFR6YrTb4C+nXakvud8Q4+rbhoIWlYQbUFQ==
-
-"@types/node@~20.12.8":
-  version "20.12.14"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.12.14.tgz#0c5cf7ef26aedfd64b0539bba9380ed1f57dcc77"
-  integrity sha512-scnD59RpYD91xngrQQLGkE+6UrHUPzeKZWhhjBSa3HSkwjbQc38+q3RoIVEwxQGRw3M+j5hpNAM+lgV3cVormg==
-  dependencies:
-    undici-types "~5.26.4"
 
 "@types/parse-json@^4.0.0":
   version "4.0.2"
@@ -2352,7 +2338,7 @@
   dependencies:
     "@types/node" "*"
 
-"@types/ws@^8.5.11", "@types/ws@~8.5.10":
+"@types/ws@^8.5.11":
   version "8.5.13"
   resolved "https://registry.yarnpkg.com/@types/ws/-/ws-8.5.13.tgz#6414c280875e2691d0d1e080b05addbf5cb91e20"
   integrity sha512-osM/gWBTPKgHV8XkTunnegTRIsvF6owmf5w+JtAfOw472dptdm0dlGv4xCt6GwQRcC2XVOvvRE/0bAoQcL2QkA==
@@ -3389,14 +3375,6 @@ builtin-status-codes@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/builtin-status-codes/-/builtin-status-codes-3.0.0.tgz#85982878e21b98e1c66425e03d0174788f569ee8"
   integrity sha512-HpGFw18DgFWlncDfjTa2rcQ4W88O1mC8e8yZ2AvQY5KDaktSTwo+KRf6nHK6FRI5FyRyb/5T6+TSxfP7QyGsmQ==
-
-bun-types@1.1.37:
-  version "1.1.37"
-  resolved "https://registry.yarnpkg.com/bun-types/-/bun-types-1.1.37.tgz#8caab7fa0dd1490a368c5e4dd0614d500e15e7e9"
-  integrity sha512-C65lv6eBr3LPJWFZ2gswyrGZ82ljnH8flVE03xeXxKhi2ZGtFiO4isRKTKnitbSqtRAcaqYSR6djt1whI66AbA==
-  dependencies:
-    "@types/node" "~20.12.8"
-    "@types/ws" "~8.5.10"
 
 busboy@1.6.0:
   version "1.6.0"
@@ -5284,19 +5262,6 @@ humanize-ms@^1.2.1:
   integrity sha512-Fl70vYtsAFb/C06PTS9dZBo7ihau+Tu/DNCk/OyHhea07S+aeMWpFFkUaXRa8fI+ScZbEI8dfSxwY7gxZ9SAVQ==
   dependencies:
     ms "^2.0.0"
-
-hyperliq@^1.4.3:
-  version "1.4.3"
-  resolved "https://registry.yarnpkg.com/hyperliq/-/hyperliq-1.4.3.tgz#9a9d96a4ea75b821103fa0ce2d1d6f9b132e7d10"
-  integrity sha512-mwr9JDs7FJ+uVgGWZnWMVycdolqVNYwa2OR0dnsxKsAiS+jjlf/bzs7RcvJiOPXJ2oiZSFfoZkarCrYAMuVvGA==
-  dependencies:
-    "@msgpack/msgpack" "^3.0.0-beta2"
-    "@types/bun" "^1.1.14"
-    "@types/ws" "^8.5.11"
-    axios "^1.7.2"
-    ethers "^6.13.2"
-    typescript "^5.5.4"
-    ws "^8.18.0"
 
 hyperliquid@^1.4.1:
   version "1.4.1"
